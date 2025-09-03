@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* { font-family: 'Inter', sans-serif; }
+
+.main { background-color: #121212; color: white; }
+
+.subtitle { color:rgb(255, 255, 255); font-size: 2rem; text-align: center; margin-bottom: 1rem; font-weight: 400; }
+
+.info-section { background: #1a1a1a; border-radius: 12px; padding: 24px; margin: 16px 0; border-left: 4px solid #1ed760; }
+.info-section h3 { color: #1ed760; margin-bottom: 12px; font-weight: 600; }
+.info-section p { color: #b3b3b3; line-height: 1.6; margin-bottom: 8px; }
+
+/* Radio button di sidebar */
+div[data-baseweb="radio"] > label > div:first-child {
+    background-color: white !important;
+}
+
+.stButton > button {
+    width: 100%;
+    background: #1ed760; color: #000000; border: none; border-radius: 24px;
+    padding: 12px 24px; font-weight: 600; font-size: 14px; transition: all 0.3s ease;
+    text-transform: uppercase; letter-spacing: 1px;
+}
+.stButton > button:hover { background: #1db954; transform: scale(1.02); }
+
+.stNumberInput > div > div > input { background: #2a2a2a; border: 1px solid #404040; color: white; border-radius: 8px; }
+.stNumberInput > div > div > input:focus { border-color: #1ed760; box-shadow: 0 0 0 2px rgba(30, 215, 96, 0.2); }
+
+.prediction-result {
+    background: linear-gradient(135deg, #1ed760, #1db954); border-radius: 12px;
+    padding: 24px; text-align: center; color: #ddcfcfff; margin: 16px 0; font-weight: 600;
+}
+.prediction-result h2 { font-size: 2rem; margin-bottom: 8px; }
+.prediction-result p { font-size: 1.1rem; margin: 4px 0; }
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
